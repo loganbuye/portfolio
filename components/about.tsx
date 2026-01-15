@@ -5,7 +5,7 @@ export default function About () {
                 <div className="sm:col-span-1">
                     <h2 className="text-xl font-semibold">About</h2>
                     <p className="mt-2 text-sm text-zinc-400">
-                        Placeholder about me text
+                        I am currently studying Computer Science at the University of Lethbridge. I graduated from SAIT with a diploma in software development in 2025. 
                     </p>
                 </div>
 
