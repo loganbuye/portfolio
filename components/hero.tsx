@@ -7,7 +7,7 @@ export default function Hero() {
                 </h1>
 
                 <p className="mt-3 text-4xl font-semibold tracking-tight sm:text-lg">
-                    I build clean, fast web apps with modern front-end tooling. Here are a few projects im proud of.
+                    Software Developer & Computer Science Student
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
@@ -16,12 +16,6 @@ export default function Hero() {
                         className="rounded-xl bg-white px-4 py-2 text-sm font-medium text-zinc-900 hover:bg-zinc-200"
                     >
                         View Projects
-                    </a>
-                    <a
-                        href="/resume.pdf"
-                        className="rounded-xl border border-white/15 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
-                    >
-                        Download Resume
                     </a>
                     <a
                         href="#contact"
