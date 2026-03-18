@@ -13,7 +13,7 @@ export default function About () {
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
                     <p className="leading-relaxed text-zinc-300">
                         I’m a developer focused on building polished UIs, dashboards, and
-                        full-stack projects. I like clean design, strong structure, polished 
+                        full-stack projects. I like clean design, strong structure, and polished 
                         final products.
                     </p>
 
