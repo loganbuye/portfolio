@@ -12,4 +12,3 @@ Live site: (coming soon)
 ## Features
 - Responsive design
 - Project showcase
-- Resume download
