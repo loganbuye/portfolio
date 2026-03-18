@@ -42,7 +42,7 @@ export default function About () {
                                 Bachelor of Science - Computer Science
                             </p>
                             <p className="text-sm text-zinc-400">
-                                University of Lethbridge | 2025 - Present
+                                University of Lethbridge | September 2025 - Present
                             </p>
                         </div>
                         <div>
@@ -50,7 +50,7 @@ export default function About () {
                                 Software Development Diploma
                             </p>
                             <p className="text-sm text-zinc-400">
-                                SAIT | 2023 - 2025
+                                SAIT | September 2023 - June 2025
                             </p>
                         </div>
                     </div>
