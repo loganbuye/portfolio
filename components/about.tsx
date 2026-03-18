@@ -38,7 +38,7 @@ export default function About () {
                     <div className="mt-4 space-y-4">
                         <div>
                             <p className="font-medium text-zinc-100">
-                                Backelor of Science - Computer Science
+                                Bachelor of Science - Computer Science
                             </p>
                             <p className="text-sm text-zinc-400">
                                 University of Lethbridge | 2025 - Present
