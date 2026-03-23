@@ -7,7 +7,7 @@ export default function Hero() {
                 </h1>
 
                 <p className="mt-3 text-4xl font-semibold tracking-tight sm:text-lg">
-                    Software Developer & Computer Science Student
+                    Computer Science Student & Software Developer
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
