@@ -20,7 +20,7 @@ export const projects: Project[] = [
     },
     {
         title: "Traffic Navigation System",
-        description: "Created a traffic navigation system using Dijkstra's algorithm to find the shortest path between two points on a map.",
+        description: "Created a terminal based traffic navigation system using Dijkstra's algorithm to find the shortest path between two points on a map.",
         tech: ["Python", "Dijkstra's Algorithm"],
         links: { github: "https://github.com/loganbuye/traffic-navigation-system"}
     }
