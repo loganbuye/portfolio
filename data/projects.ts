@@ -17,6 +17,12 @@ export const projects: Project[] = [
         description: "Developed a console-based banking system in MIPS Assembly that allows users to create accounds, deposit, withdraw, and check balances.",
         tech: ["MIPS Assembly"],
         links: { github: "https://github.com/josshuabalita/BankingSystem-in-MIPS"}
+    },
+    {
+        title: "Traffic Navigation System",
+        description: "Created a traffic navigation system using Dijkstra's algorithm to find the shortest path between two points on a map.",
+        tech: ["Python", "Dijkstra's Algorithm"],
+        links: { github: "https://github.com/loganbuye/traffic-navigation-system"}
     }
 
 ]
