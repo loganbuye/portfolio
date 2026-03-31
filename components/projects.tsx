@@ -32,18 +32,24 @@ export default function Projects () {
                             ))}
                         </div>
 
-                        <div className="mt-5 flex gap-3 text-sm">
+                        <div className="mt-5 flex gap-4 text-sm">
                             {p.links.github && (
-                                <a className="text-zinc-200 hover:text-white underline underline-offset-4" href={p.links.github}>
-                                    Github
+                                <a className="text-zinc-200 hover:text-white hover:underline underline-offset-4" 
+                                href={p.links.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                    Github <span>↗</span>
                                 </a>
                             )}
-                        </div>
-
-                        <div className="mt-5 flex gap-3 text-sm">
+                        
                             {p.links.demo && (
-                                <a className="text-zinc-200 hover:text-white underline underline-offset-4" href={p.links.demo}>
-                                    Live
+                                <a className="text-zinc-200 hover:text-white hover:underline underline-offset-4" 
+                                href={p.links.demo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                    Live <span>↗</span>
                                 </a>
                             )}
                         </div>
