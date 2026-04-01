@@ -1,11 +1,20 @@
+"use client"
 import { projects } from "@/data/projects";
+import { motion } from "framer-motion";
 
 export default function Projects () {
     return (
-        <section id="projects" className="mx-auto max-w-6xl px-4 py-10">
+        <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="mx-auto max-w-6xl px-4 py-10"
+        >
+        <section id="projects" className="scroll-mt-24 mx-auto max-w-6xl px-4 py-10">
             <div className="flex items-end justify-between gap-4">
                 <div>
-                    <h2 className="text-xl font-semibold">Projects</h2>
+                    <h2 className="text-xl font-semibold text-teal-400">Projects</h2>
                     <p className="mt-2 text-sm text-zinc-400">
                         A few things I've worked on recently.
                     </p>
@@ -16,7 +25,9 @@ export default function Projects () {
                 {projects.map((p) => (
                     <div
                         key={p.title}
-                        className="rounded-3xl border border-white/10 bg-white/5 p-6 hover:bg-white/10 transition"
+                        className="rounded-3xl border border-white/10 bg-white/5 p-6
+                                    transition duration-300
+                                    hover:bg-white/10 hover:-translate-y-1 hover:shadow-xl"
                     >
                         <h3 className="text-lg font-semibold">{p.title}</h3>
                         <p className="mt-2 text-sm leading-relaxed text-zinc-300">{p.description}</p>
@@ -57,5 +68,6 @@ export default function Projects () {
                 ))}
             </div>
         </section>
+        </motion.section>
     )
 }

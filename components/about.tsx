@@ -1,16 +1,28 @@
+"use client"
+import { motion } from "framer-motion"
+
 export default function About () {
     return (
-        <section id="about" className="mx-auto max-w-6xl px-4 py-10">
+        <motion.section
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0}}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="mx-auto max-w-6xl px-4 py-10"
+        >
+        <section id="about" className="scroll-mt-24 mx-auto max-w-6xl px-4 py-10">
             <div className="flex items-end justify-between gap-4">
                 <div>
-                    <h2 className="text-xl font-semibold">About</h2>
+                    <h2 className="text-xl font-semibold text-teal-400">About</h2>
                     <p className="mt-2 text-sm text-zinc-400">A quick introduction </p>
                 </div>
             </div>
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
 
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+                <div className="rounded-3xl border border-white/10 bg-white/5 p-6
+                                transition duration-300
+                                hover:bg-white/10 hover:-translate-y-1 hover:shadow-xl">
                     <p className="leading-relaxed text-zinc-300">
                         I'm currently a student pursuing a bachelor degree in Computer Science 
                         from the University of Lethbridge. I also have a diploma in Software Development 
@@ -33,7 +45,9 @@ export default function About () {
                 </div>            
             
 
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+                <div className="rounded-3xl border border-white/10 bg-white/5 p-6
+                                transition duration-300
+                                hover:bg-white/10 hover:-translate-y-1 hover:shadow-xl">
                     <h3 className="text-sm font-medium text-zinc-200">Education</h3>
 
                     <div className="mt-4 space-y-4">
@@ -57,5 +71,6 @@ export default function About () {
                 </div>
             </div>
         </section>
+        </motion.section>
     )
 }

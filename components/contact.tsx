@@ -1,8 +1,18 @@
+"use client"
+import { motion } from "framer-motion"
+
 export default function Contact () {
     return (
-        <section id="contact" className="mx-auto max-w-6xl px-4 py-10">
+        <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="mx-auto max-w-6xl px-4 py-10"
+        >
+        <section id="contact" className="scroll-mt-24 mx-auto max-w-6xl px-4 py-10">
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-10">
-                <h2 className="text-xl font-semibold">Contact</h2>
+                <h2 className="text-xl font-semibold text-teal-400">Contact</h2>
                 <p className="mt-2 text-sm text-zinc-400">
                     Get in touch with me.
                 </p>
@@ -29,5 +39,6 @@ export default function Contact () {
                 </div>
             </div>
         </section>
+        </motion.section>
     )
 }

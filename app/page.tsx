@@ -8,7 +8,13 @@ import Skills from '@/components/skills';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100">
+    <main className="relative min-h-screen text-zinc-100
+    bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950">
+
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 bg-gradient-to-br from-teal-500/10 via-transparent to-blue-500/10" />
+      </div>
+
       <Navbar />
       <Hero />
       <About />
