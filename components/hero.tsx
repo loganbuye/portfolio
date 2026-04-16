@@ -39,7 +39,7 @@ export default function Hero() {
 
             <div className="relative h-40 w-40 sm:h-52 sm:w-52 overflow-hidden rounded-full border border-white/10">
               <Image
-                src="/headshot.jpg"
+                src="/headshot.JPG"
                 alt="Logan Buye headshot"
                 fill
                 className="object-cover"
